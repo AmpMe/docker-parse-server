@@ -1,6 +1,6 @@
 parse-server:
   #build: .
-  image: yongjhih/parse-server:dev
+  image: gcr.io/ampme-1083/docker-parse-server:2.8.2
   ports:
     - "1337:1337"
     - "2022:22"
